@@ -5,8 +5,15 @@ body {
   height: 100%;
 }
 
+.screenshots1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .menu {
-  background: #f6ad72;
+  background: #c6743e;
   height: 5rem;
   font-size: 30px;
 }
@@ -28,6 +35,7 @@ body {
   flex: 1;
   padding: 0.75rem 0;
   padding-bottom: 0;
+  color: whitesmoke;
 }
 
 .menu-item {
@@ -67,6 +75,12 @@ body {
 
 a {
   text-decoration: none;
+  color: whitesmoke;
+}
+
+h2 {
+  color: whitesmoke;
+  margin-bottom: 0%;
 }
 
 .header {
@@ -83,11 +97,12 @@ a {
 }
 
 .textMiddle {
-  width: 1250px;
+  width: 1150px;
   margin: auto;
   color: whitesmoke;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 35px;
+  text-align: justify;
 }
 
 .screenshots {
@@ -119,6 +134,17 @@ a {
   transform: scale(1.3);
 }
 
+.phStruktur:hover {
+  transform: scale(1.4);
+}
+
+.screenshots {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 .rubriken {
   padding-top: 40px;
   color: whitesmoke;
@@ -130,12 +156,17 @@ a {
   padding-top: 0;
 }
 
-.footer {
-  padding-top: 20px;
-  color: whitesmoke;
-  font-size: 15px;
-}
-
 .content {
   padding: 20px;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+.video {
+  text-align: center;
+  padding-top: 1rem;
 }
