@@ -5,6 +5,70 @@ body {
   height: 100%;
 }
 
+.menu {
+  background: #f6ad72;
+  height: 5rem;
+  font-size: 30px;
+}
+
+.menu ol {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.menu > ol {
+  max-width: 1200px;
+  padding: 0 2rem;
+  padding-top: 0.7rem;
+  display: flex;
+}
+
+.menu > ol > .menu-item {
+  flex: 1;
+  padding: 0.75rem 0;
+  padding-bottom: 0;
+}
+
+.menu-item {
+  position: relative;
+  line-height: 2rem;
+  text-align: center;
+}
+
+.menu-item:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.menu-item a {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  color: #fff;
+}
+
+#active {
+  text-decoration-line: underline;
+  color: #fff;
+  cursor: pointer;
+  text-underline-offset: 0.2em;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
 .header {
   display: block;
   margin-left: auto;
@@ -14,24 +78,24 @@ body {
 
 .middle {
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   background-color: #c6743e;
 }
 
 .textMiddle {
+  width: 1250px;
+  margin: auto;
   color: whitesmoke;
   font-weight: bold;
-  font-size: 30px;
-  margin: 0%;
-  padding: 50px;
-  padding-top: 10px;
+  font-size: 35px;
 }
 
 .screenshots {
-padding-top: 20px;
+  padding-top: 20px;
 }
 
-.ph1 , .ph2 {
+.ph1,
+.ph2 {
   border: 10px solid whitesmoke;
   border-radius: 25px;
   margin-right: 100px;
@@ -48,25 +112,28 @@ padding-top: 20px;
   margin-left: 100px;
 }
 
-.ph1:hover , .ph2:hover , .ph3:hover , .ph4:hover {
+.ph1:hover,
+.ph2:hover,
+.ph3:hover,
+.ph4:hover {
   transform: scale(1.3);
 }
 
-.rubriken{
-padding-top: 40px;
-color: whitesmoke;
-font-weight: bold;
-font-size: 30px;
+.rubriken {
+  padding-top: 40px;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 #rubriken2 {
-padding-top: 0;
+  padding-top: 0;
 }
 
-.footer{
+.footer {
   padding-top: 20px;
-color: whitesmoke;
-font-size: 15px;
+  color: whitesmoke;
+  font-size: 15px;
 }
 
 .content {
